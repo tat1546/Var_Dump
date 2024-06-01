@@ -62,19 +62,7 @@
       <div class="row align-items-center ">
         <div class="col-md-10 offset-md-1 ">
           
-        @if(!empty($titulo))
-    <div>
-        <h4>Informações Recebidas:</h4>
-        <p>Nome: {{ $dados['nome'] ?? 'Não informado' }}</p>
-        <p>Telefone: {{ $dados['telefone'] ?? 'Não informado' }}</p>
-        <p>Endereço: {{ $dados['endereco'] ?? 'Não informado' }}</p>
-        <p>Sexo: {{ $dados['sexo'] ?? 'Não informado' }}</p>
-    </div>
-    <div>
-    <h4>Saída do var_dump:</h4>
-                <pre>{{ $vardumpA }}</pre>
-            </div>
-@endif
+       
 
           <div class="container mt-5 form-container ">
           
